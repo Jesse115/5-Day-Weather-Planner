@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(black, red);
+    background-repeat: no-repeat;
+    color: rgb(207, 26, 26);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+footer p {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    border-bottom: 1px blue dotted;
+}
+
+.cardColor {
+    padding: 20px;
+    background-color: blue;
+    color: red;
+    float: left;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.currentCard {
+    background-color: #393e46;
+    font-weight: 600;
+    color: white;
+}
+
+.list-group .list {
+    color: gray;
+}
+
+.input {
+    color: black;
+}
